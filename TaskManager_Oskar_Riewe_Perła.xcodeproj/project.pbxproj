@@ -1,0 +1,627 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		758267A922F89340007C868F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758267A822F89340007C868F /* AppDelegate.swift */; };
+		758267AB22F89340007C868F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758267AA22F89340007C868F /* ViewController.swift */; };
+		758267AE22F89340007C868F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 758267AC22F89340007C868F /* Main.storyboard */; };
+		758267B122F89340007C868F /* TaskManager_Oskar_Riewe_Per_a.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 758267AF22F89340007C868F /* TaskManager_Oskar_Riewe_Per_a.xcdatamodeld */; };
+		758267B322F89342007C868F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 758267B222F89342007C868F /* Assets.xcassets */; };
+		758267B622F89342007C868F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 758267B422F89342007C868F /* LaunchScreen.storyboard */; };
+		758267C122F89342007C868F /* TaskManager_Oskar_Riewe_Per_aTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758267C022F89342007C868F /* TaskManager_Oskar_Riewe_Per_aTests.swift */; };
+		758267CC22F89342007C868F /* TaskManager_Oskar_Riewe_Per_aUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758267CB22F89342007C868F /* TaskManager_Oskar_Riewe_Per_aUITests.swift */; };
+		758267DA22F894BE007C868F /* TaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758267D922F894BE007C868F /* TaskViewController.swift */; };
+		758267DC22F89C27007C868F /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758267DB22F89C27007C868F /* Task.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		758267BD22F89342007C868F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7582679D22F89340007C868F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 758267A422F89340007C868F;
+			remoteInfo = "TaskManager_Oskar_Riewe_Perła";
+		};
+		758267C822F89342007C868F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7582679D22F89340007C868F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 758267A422F89340007C868F;
+			remoteInfo = "TaskManager_Oskar_Riewe_Perła";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		750DA25422F97AA500A47B3E /* TaskManager_Oskar_Riewe_Perła.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "TaskManager_Oskar_Riewe_Perła.entitlements"; sourceTree = "<group>"; };
+		758267A522F89340007C868F /* TaskManager_Oskar_Riewe_Perła.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TaskManager_Oskar_Riewe_Perła.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		758267A822F89340007C868F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		758267AA22F89340007C868F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		758267AD22F89340007C868F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		758267B022F89340007C868F /* TaskManager_Oskar_Riewe_Per_a.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TaskManager_Oskar_Riewe_Per_a.xcdatamodel; sourceTree = "<group>"; };
+		758267B222F89342007C868F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		758267B522F89342007C868F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		758267B722F89342007C868F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		758267BC22F89342007C868F /* TaskManager_Oskar_Riewe_PerłaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TaskManager_Oskar_Riewe_PerłaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		758267C022F89342007C868F /* TaskManager_Oskar_Riewe_Per_aTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskManager_Oskar_Riewe_Per_aTests.swift; sourceTree = "<group>"; };
+		758267C222F89342007C868F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		758267C722F89342007C868F /* TaskManager_Oskar_Riewe_PerłaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TaskManager_Oskar_Riewe_PerłaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		758267CB22F89342007C868F /* TaskManager_Oskar_Riewe_Per_aUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskManager_Oskar_Riewe_Per_aUITests.swift; sourceTree = "<group>"; };
+		758267CD22F89342007C868F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		758267D922F894BE007C868F /* TaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskViewController.swift; sourceTree = "<group>"; };
+		758267DB22F89C27007C868F /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		758267A222F89340007C868F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		758267B922F89342007C868F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		758267C422F89342007C868F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7582679C22F89340007C868F = {
+			isa = PBXGroup;
+			children = (
+				758267A722F89340007C868F /* TaskManager_Oskar_Riewe_Perła */,
+				758267BF22F89342007C868F /* TaskManager_Oskar_Riewe_PerłaTests */,
+				758267CA22F89342007C868F /* TaskManager_Oskar_Riewe_PerłaUITests */,
+				758267A622F89340007C868F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		758267A622F89340007C868F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				758267A522F89340007C868F /* TaskManager_Oskar_Riewe_Perła.app */,
+				758267BC22F89342007C868F /* TaskManager_Oskar_Riewe_PerłaTests.xctest */,
+				758267C722F89342007C868F /* TaskManager_Oskar_Riewe_PerłaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		758267A722F89340007C868F /* TaskManager_Oskar_Riewe_Perła */ = {
+			isa = PBXGroup;
+			children = (
+				750DA25422F97AA500A47B3E /* TaskManager_Oskar_Riewe_Perła.entitlements */,
+				758267A822F89340007C868F /* AppDelegate.swift */,
+				758267AA22F89340007C868F /* ViewController.swift */,
+				758267D922F894BE007C868F /* TaskViewController.swift */,
+				758267DB22F89C27007C868F /* Task.swift */,
+				758267AC22F89340007C868F /* Main.storyboard */,
+				758267B222F89342007C868F /* Assets.xcassets */,
+				758267B422F89342007C868F /* LaunchScreen.storyboard */,
+				758267B722F89342007C868F /* Info.plist */,
+				758267AF22F89340007C868F /* TaskManager_Oskar_Riewe_Per_a.xcdatamodeld */,
+			);
+			path = "TaskManager_Oskar_Riewe_Perła";
+			sourceTree = "<group>";
+		};
+		758267BF22F89342007C868F /* TaskManager_Oskar_Riewe_PerłaTests */ = {
+			isa = PBXGroup;
+			children = (
+				758267C022F89342007C868F /* TaskManager_Oskar_Riewe_Per_aTests.swift */,
+				758267C222F89342007C868F /* Info.plist */,
+			);
+			path = "TaskManager_Oskar_Riewe_PerłaTests";
+			sourceTree = "<group>";
+		};
+		758267CA22F89342007C868F /* TaskManager_Oskar_Riewe_PerłaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				758267CB22F89342007C868F /* TaskManager_Oskar_Riewe_Per_aUITests.swift */,
+				758267CD22F89342007C868F /* Info.plist */,
+			);
+			path = "TaskManager_Oskar_Riewe_PerłaUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		758267A422F89340007C868F /* TaskManager_Oskar_Riewe_Perła */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 758267D022F89342007C868F /* Build configuration list for PBXNativeTarget "TaskManager_Oskar_Riewe_Perła" */;
+			buildPhases = (
+				758267A122F89340007C868F /* Sources */,
+				758267A222F89340007C868F /* Frameworks */,
+				758267A322F89340007C868F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TaskManager_Oskar_Riewe_Perła";
+			productName = "TaskManager_Oskar_Riewe_Perła";
+			productReference = 758267A522F89340007C868F /* TaskManager_Oskar_Riewe_Perła.app */;
+			productType = "com.apple.product-type.application";
+		};
+		758267BB22F89342007C868F /* TaskManager_Oskar_Riewe_PerłaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 758267D322F89342007C868F /* Build configuration list for PBXNativeTarget "TaskManager_Oskar_Riewe_PerłaTests" */;
+			buildPhases = (
+				758267B822F89342007C868F /* Sources */,
+				758267B922F89342007C868F /* Frameworks */,
+				758267BA22F89342007C868F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				758267BE22F89342007C868F /* PBXTargetDependency */,
+			);
+			name = "TaskManager_Oskar_Riewe_PerłaTests";
+			productName = "TaskManager_Oskar_Riewe_PerłaTests";
+			productReference = 758267BC22F89342007C868F /* TaskManager_Oskar_Riewe_PerłaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		758267C622F89342007C868F /* TaskManager_Oskar_Riewe_PerłaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 758267D622F89342007C868F /* Build configuration list for PBXNativeTarget "TaskManager_Oskar_Riewe_PerłaUITests" */;
+			buildPhases = (
+				758267C322F89342007C868F /* Sources */,
+				758267C422F89342007C868F /* Frameworks */,
+				758267C522F89342007C868F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				758267C922F89342007C868F /* PBXTargetDependency */,
+			);
+			name = "TaskManager_Oskar_Riewe_PerłaUITests";
+			productName = "TaskManager_Oskar_Riewe_PerłaUITests";
+			productReference = 758267C722F89342007C868F /* TaskManager_Oskar_Riewe_PerłaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7582679D22F89340007C868F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Oskar Riewe-Perla";
+				TargetAttributes = {
+					758267A422F89340007C868F = {
+						CreatedOnToolsVersion = 10.3;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					758267BB22F89342007C868F = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 758267A422F89340007C868F;
+					};
+					758267C622F89342007C868F = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 758267A422F89340007C868F;
+					};
+				};
+			};
+			buildConfigurationList = 758267A022F89340007C868F /* Build configuration list for PBXProject "TaskManager_Oskar_Riewe_Perła" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7582679C22F89340007C868F;
+			productRefGroup = 758267A622F89340007C868F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				758267A422F89340007C868F /* TaskManager_Oskar_Riewe_Perła */,
+				758267BB22F89342007C868F /* TaskManager_Oskar_Riewe_PerłaTests */,
+				758267C622F89342007C868F /* TaskManager_Oskar_Riewe_PerłaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		758267A322F89340007C868F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				758267B622F89342007C868F /* LaunchScreen.storyboard in Resources */,
+				758267B322F89342007C868F /* Assets.xcassets in Resources */,
+				758267AE22F89340007C868F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		758267BA22F89342007C868F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		758267C522F89342007C868F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		758267A122F89340007C868F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				758267AB22F89340007C868F /* ViewController.swift in Sources */,
+				758267DA22F894BE007C868F /* TaskViewController.swift in Sources */,
+				758267DC22F89C27007C868F /* Task.swift in Sources */,
+				758267A922F89340007C868F /* AppDelegate.swift in Sources */,
+				758267B122F89340007C868F /* TaskManager_Oskar_Riewe_Per_a.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		758267B822F89342007C868F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				758267C122F89342007C868F /* TaskManager_Oskar_Riewe_Per_aTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		758267C322F89342007C868F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				758267CC22F89342007C868F /* TaskManager_Oskar_Riewe_Per_aUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		758267BE22F89342007C868F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 758267A422F89340007C868F /* TaskManager_Oskar_Riewe_Perła */;
+			targetProxy = 758267BD22F89342007C868F /* PBXContainerItemProxy */;
+		};
+		758267C922F89342007C868F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 758267A422F89340007C868F /* TaskManager_Oskar_Riewe_Perła */;
+			targetProxy = 758267C822F89342007C868F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		758267AC22F89340007C868F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				758267AD22F89340007C868F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		758267B422F89342007C868F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				758267B522F89342007C868F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		758267CE22F89342007C868F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		758267CF22F89342007C868F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		758267D122F89342007C868F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "TaskManager_Oskar_Riewe_Perła/TaskManager_Oskar_Riewe_Perła.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J98CX56K4Z;
+				INFOPLIST_FILE = "TaskManager_Oskar_Riewe_Perła/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Oskar.TaskManager-Oskar-Riewe-Per-a";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		758267D222F89342007C868F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "TaskManager_Oskar_Riewe_Perła/TaskManager_Oskar_Riewe_Perła.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J98CX56K4Z;
+				INFOPLIST_FILE = "TaskManager_Oskar_Riewe_Perła/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Oskar.TaskManager-Oskar-Riewe-Per-a";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		758267D422F89342007C868F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J98CX56K4Z;
+				INFOPLIST_FILE = "TaskManager_Oskar_Riewe_PerłaTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Oskar.TaskManager-Oskar-Riewe-Per-aTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TaskManager_Oskar_Riewe_Perła.app/TaskManager_Oskar_Riewe_Perła";
+			};
+			name = Debug;
+		};
+		758267D522F89342007C868F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J98CX56K4Z;
+				INFOPLIST_FILE = "TaskManager_Oskar_Riewe_PerłaTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Oskar.TaskManager-Oskar-Riewe-Per-aTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TaskManager_Oskar_Riewe_Perła.app/TaskManager_Oskar_Riewe_Perła";
+			};
+			name = Release;
+		};
+		758267D722F89342007C868F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J98CX56K4Z;
+				INFOPLIST_FILE = "TaskManager_Oskar_Riewe_PerłaUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Oskar.TaskManager-Oskar-Riewe-Per-aUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "TaskManager_Oskar_Riewe_Perła";
+			};
+			name = Debug;
+		};
+		758267D822F89342007C868F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J98CX56K4Z;
+				INFOPLIST_FILE = "TaskManager_Oskar_Riewe_PerłaUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Oskar.TaskManager-Oskar-Riewe-Per-aUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "TaskManager_Oskar_Riewe_Perła";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		758267A022F89340007C868F /* Build configuration list for PBXProject "TaskManager_Oskar_Riewe_Perła" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				758267CE22F89342007C868F /* Debug */,
+				758267CF22F89342007C868F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		758267D022F89342007C868F /* Build configuration list for PBXNativeTarget "TaskManager_Oskar_Riewe_Perła" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				758267D122F89342007C868F /* Debug */,
+				758267D222F89342007C868F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		758267D322F89342007C868F /* Build configuration list for PBXNativeTarget "TaskManager_Oskar_Riewe_PerłaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				758267D422F89342007C868F /* Debug */,
+				758267D522F89342007C868F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		758267D622F89342007C868F /* Build configuration list for PBXNativeTarget "TaskManager_Oskar_Riewe_PerłaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				758267D722F89342007C868F /* Debug */,
+				758267D822F89342007C868F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		758267AF22F89340007C868F /* TaskManager_Oskar_Riewe_Per_a.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				758267B022F89340007C868F /* TaskManager_Oskar_Riewe_Per_a.xcdatamodel */,
+			);
+			currentVersion = 758267B022F89340007C868F /* TaskManager_Oskar_Riewe_Per_a.xcdatamodel */;
+			path = TaskManager_Oskar_Riewe_Per_a.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 7582679D22F89340007C868F /* Project object */;
+}
